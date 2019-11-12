@@ -13,7 +13,7 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 import static java.util.Collections.emptyList;
 
 @Service
-public class UserDetails implements UserDetailsService {
+public class UserDetailsImpl implements UserDetailsService {
     
 	@Autowired
 	UserRepository userRepository;
