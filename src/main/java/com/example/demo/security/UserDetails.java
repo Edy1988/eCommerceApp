@@ -12,12 +12,6 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 
 import static java.util.Collections.emptyList;
 
-
-/*
- * The link for this class implementation and description
- * https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/
- */
-
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
     
